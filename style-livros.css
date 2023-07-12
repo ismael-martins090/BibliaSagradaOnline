@@ -12,13 +12,13 @@
     align-items: center;
 }
 
-h1{
+.titulo-header{
     margin-left: 50px;
     color: white;
     width: 50%;
 }
 
-nav{
+.nav-principal{
     width: 50%;
     padding-right: 50px;   
 }
@@ -45,13 +45,17 @@ li:hover{
     background: rgb(58, 33, 119);
 }
 
-
 section{
     display: flex;
     flex-direction: row;
     gap: 6rem;
     margin: 3rem 6rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    color: black;
+    margin: 0;
 }
 
 .cap-01{
@@ -61,8 +65,7 @@ section{
     width: 80%;
     padding: 1rem;
     letter-spacing: 1.8;
-    font-size: 23px;
-    
+    font-size: 23px; 
 }
 
 p{
@@ -77,7 +80,7 @@ b{
 }
 
 .capitulos{
-    
+    margin-top: 1rem;
     width: 30%;
     height: 100px;
     display: flex;
@@ -93,6 +96,7 @@ b{
 }
 
 .prox-cap:hover{
+    text-decoration: none;
     background-color: rgb(165, 165, 165);
     padding: 3px;
     color: white;
