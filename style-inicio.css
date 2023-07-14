@@ -33,18 +33,19 @@ ul{
 }   
     
 
-li{
-    
+li a{
     padding: 15px;
+    color: white;
+    text-decoration: none;
 }
 
-li:hover{
+li a:hover{
     background: rgb(58, 33, 119);
 }
 
 h2{
     padding: 30px 15px 3px;
-    font-size: 40px;
+    font-size: 38px;
     border-bottom: 2px solid rgb(23, 4, 66);
     margin-right: 60%;
     margin-bottom: 30px;
@@ -57,7 +58,7 @@ main{
 
 .section-velhoTestamento, .section-novoTestamento{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 .div-container{
@@ -68,7 +69,7 @@ main{
     padding-bottom: 25px;
 }
 
-a{
+.nome-velhoTestamento, .nome-novoTestamento{
     background: #ccc;
     padding: 0 135px;
     text-align: center;
@@ -80,13 +81,29 @@ a:hover{
     color: white;
 }
 
-footer{
+#contato{
     background: rgb(23, 4, 66);
-    text-align: center;
     color: white;
     font-size: 20px;
-    padding: 50px;
+    padding: 1rem;
 }
+
+#contato > div{
+    display: flex;
+    gap: 5rem ;
+    justify-content: center;
+
+    padding: 1rem;
+
+}
+
+.logo{
+
+    background: none;
+}
+
+
+
 
 .divisao{
     height: 1px;
